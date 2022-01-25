@@ -27,6 +27,7 @@ COPY --chown=algorithm:algorithm getting_results.py /opt/algorithm/
 COPY --chown=algorithm:algorithm preprocessing.py /opt/algorithm/
 COPY --chown=algorithm:algorithm create_dirs.py /opt/algorithm/
 COPY --chown=algorithm:algorithm create_files.py /opt/algorithm/
+COPY --chown=algorithm:algorithm model /opt/algorithm/
 #COPY --chown=algorithm:algorithm input /input
 COPY --chown=algorithm:algorithm utils.py /opt/algorithm/utils.py
 #ADD darknet .
