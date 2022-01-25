@@ -69,7 +69,7 @@ class Noduledetection(DetectionAlgorithm):
         if not (train or retest):
             # retrain or test phase
             print('loading the model from container with model file:')
-            model_weights = os.path.join('opt/algortihm','model','yolov4-obj_last.weights') if execute_in_docker else './model/yolov4-obj_last.weights'   
+            model_weights = os.path.join('/opt/algortihm','model','yolov4-obj_last.weights') if execute_in_docker else './model/yolov4-obj_last.weights'   
             
         if retest:
             print('loading the retrained model for retest phase')
