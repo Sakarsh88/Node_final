@@ -50,6 +50,6 @@ LABEL nl.diagnijmegen.rse.algorithm.hardware.cpu.capabilities=()
 LABEL nl.diagnijmegen.rse.algorithm.hardware.memory=12G
 LABEL nl.diagnijmegen.rse.algorithm.hardware.gpu.count=1
 LABEL nl.diagnijmegen.rse.algorithm.hardware.gpu.cuda_compute_capability=
-LABEL nl.diagnijmegen.rse.algorithm.hardware.gpu.memory=10G
+LABEL nl.diagnijmegen.rse.algorithm.hardware.gpu.memory=60G
 
 
